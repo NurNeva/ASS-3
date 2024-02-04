@@ -1,0 +1,162 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.container{
+    margin: 0 auto;
+    background-color: #F6B396;
+    opacity: 0.9;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+ 
+}
+
+.header{
+
+    color: black;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.menu ul{
+
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.menu ul li{
+
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+.menu ul li:hover{
+
+    background-color: orangered;
+
+}
+
+.images{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+   
+    
+}
+
+.card{
+   
+    margin: 1rem;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+    border: 5px solid rgb(246, 243, 243);
+    box-shadow: 2px 2px 4px white;
+    
+  
+
+
+}
+.card:hover {
+    cursor: zoom-in;
+  
+}
+
+.card img {
+    width: 500px;
+    border-radius: 10px;
+    object-fit:contain;
+ 
+ 
+}
+
+
+
+
+
+ .text-container {
+
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    border: 0.1px solid rgba(0, 0, 0, 0.344);
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 10px;
+   
+    position: relative;
+ 
+} 
+
+.text {
+    color: rgba(0, 0, 0, 0.793);
+    font-size: 30px;
+    font-weight: bold;
+    position:absolute;
+}
+
+
+
+.card:hover .text-container {
+    opacity: 1;
+}
+
+ 
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #F6B396;
+    box-sizing: border-box;
+    padding: 2rem;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
